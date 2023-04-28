@@ -2,9 +2,9 @@ package org.example.repositories;
 
 import jakarta.persistence.EntityManager;
 import org.example.models.Teller;
-
 import java.util.List;
 import java.util.Optional;
+
 
 public class TellerRepository {
     private EntityManager entityManager;
